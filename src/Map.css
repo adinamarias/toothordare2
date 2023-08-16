@@ -1,0 +1,25 @@
+.map-container {
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1vh;
+    /* margin-left: 25vw; */
+    display: flex;
+    width: 100vw;
+    height: 40vh;
+  }
+  
+  .sidebarStyle {
+    display: inline-block;
+    position: absolute;
+    justify-content: flex-start;
+    display: flex;
+    top: 4;
+    left: 0;
+    margin: 6px;
+    background-color:#01579B;
+    color: #ffffff;
+    z-index: 1 !important;
+    padding: 6px;
+    font-weight: bold;
+  }
